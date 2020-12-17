@@ -177,3 +177,9 @@ endfunction
 " vimspector mapps config
 
 let g:vimspector_enable_mappings = 'HUMAN'
+
+colorscheme gruvbox
+set bg=dark
+
+" Disable tmux mappings to custom definition
+let g:tmux_navigator_no_mappings = 1

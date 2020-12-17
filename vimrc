@@ -28,11 +28,13 @@ nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>wq :wq<CR>
 nnoremap <C-p> :All<CR>
+map <silent> <c-j> 10<c-e>
+map <silent> <c-k> 10<c-y>
+map <silent> <c-h> b
+map <silent> <c-l> e
 nnoremap <Leader>F :Rg<CR>
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>h :History<CR>
-nnoremap <Leader>j 15j
-nnoremap <Leader>k 15k
 nnoremap <Leader>r :%s///g<Left><Left>
 nnoremap <Leader>rc :%s///gc<Left><Left><Left>
 
@@ -50,7 +52,9 @@ nnoremap <Leader>R
   \ :cfdo %s/<C-r>s// \| update
   \<Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
 
-
-colorscheme gruvbox
-set bg=dark
+map <silent> <c-d> :TmuxNavigateUp<cr>
+map <silent> <c-s> :TmuxNavigateDown<cr>
+map <silent> <c-a> :TmuxNavigateLeft<cr>
+map <silent> <c-f> :TmuxNavigateRight<cr>
+map <silent> <c-\> :TmuxNavigatePrevious<cr>
 
