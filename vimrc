@@ -30,8 +30,6 @@ nmap <Leader>wq :wq<CR>
 nnoremap <C-p> :All<CR>
 map <silent> <c-j> 10<c-e>
 map <silent> <c-k> 10<c-y>
-map <silent> <c-h> b
-map <silent> <c-l> e
 nnoremap <Leader>F :Rg<CR>
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>h :History<CR>
@@ -52,9 +50,6 @@ nnoremap <Leader>R
   \ :cfdo %s/<C-r>s// \| update
   \<Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
 
-map <silent> <c-d> :TmuxNavigateUp<cr>
-map <silent> <c-s> :TmuxNavigateDown<cr>
 map <silent> <c-a> :TmuxNavigateLeft<cr>
 map <silent> <c-f> :TmuxNavigateRight<cr>
-map <silent> <c-\> :TmuxNavigatePrevious<cr>
 

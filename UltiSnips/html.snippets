@@ -1,0 +1,28 @@
+snippet html "html" 
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+ 	   <meta charset="UTF-8">
+ 	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	   <title>$1</title>
+	    ${2:<link rel="stylesheet" href="$3">}
+	</head>
+	<body>
+		$4
+	</body>
+</html>
+
+endsnippet
+
+snippet tgs "tag small" 
+<$1 ${2:class="$3"}>$4</$1>
+endsnippet
+
+snippet tgl "tag large"
+<$1 ${2:class="$3"}>
+	$4
+</$1>
+endsnippet
+

@@ -11,11 +11,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'dense-analysis/ale'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'szw/vim-maximizer'
 
 " Search
 Plug 'haya14busa/is.vim'

@@ -73,3 +73,17 @@ snippet req "const = require('')" b
 const ${2:{ $3 }} = require ('$1');
 endsnippet
 
+snippet if "if () {}" b
+if ($1) {
+  $2
+}
+endsnippet
+
+snippet try "try {} catch {}" b
+try {
+  $1
+} catch (e) {
+  $2
+}
+endsnippet
+
